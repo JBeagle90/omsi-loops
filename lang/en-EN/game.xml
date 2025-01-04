@@ -6,6 +6,10 @@
                 <title>Changelog</title>
                 <version_prefix>Version</version_prefix>
             </meta>
+            <version verNum="3.0"><![CDATA[
+            <b> January 4, 2025</b>
+            Test
+            ]]></version> 
             <version verNum="2.9"><![CDATA[
             <b> July 25th, 2022</b>
             Performance Update!<br>
