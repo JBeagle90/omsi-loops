@@ -4776,7 +4776,7 @@ Action.SeekBlessing = new Action("Seek Blessing", {
     skills: {
         Divine() {
 		return Math.floor(50 * getFrostGiantsRank().bonus);
-    },
+    }},
     canStart() {
         return resources.pegasus;
     },
