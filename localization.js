@@ -75,7 +75,7 @@ window.Localization = {
         window.location.href = `${window.location.origin + window.location.pathname}?${$.param(vars)}`;
     },
     loadXML(libName, callback) {
-        if (libName === "fallback") $.get("lang/en-EN/game.xml", null, callback, "xml");
+        if (libName === "fallback") $.get("https://jbeagle90.github.io/omsi-loops/lang/en-EN/game.xml", null, callback, "xml");
         else $.get(`lang/${Localization.currentLang}/${libName}.xml`, null, callback, "xml");
     },
     getUrlVars() {
