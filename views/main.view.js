@@ -313,7 +313,7 @@ function View() {
 
     this.updateTime = function() {
         document.getElementById("timeBar").style.width = `${100 - timer / timeNeeded * 100}%`;
-        document.getElementById("timer").textContent = `${intToString((timeNeeded - timer), 1)} | ${formatTime((timeNeeded - timer) / 50 / getActualGameSpeed())}`;
+        document.getElementById("timer").textContent = `${intToString((timeNeeded - timer), 1)} | ${formatTime((timeNeeded - timer) / 100 / getActualGameSpeed())}`;
     };
     this.updateOffline = function() {
         document.getElementById("bonusSeconds").textContent = formatTime(totalOfflineMs / 1000);
